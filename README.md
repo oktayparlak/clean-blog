@@ -1,2 +1,2 @@
 Clean Blog Website Project\
-https://github.com/oktayparlak/clean-blog
+https://app.patika.dev/oktayparlak
