@@ -12,3 +12,7 @@ app.get('/', (req, res) => {
   };
   res.send(photo);
 });
+
+app.listen(port, () => {
+  console.log(`Server running on ${port}`);
+});
