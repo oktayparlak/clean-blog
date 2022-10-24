@@ -31,6 +31,8 @@ app.use(
 app.get('/', postController.getAllPosts);
 app.get('/posts/:id', postController.getPost);
 app.post('/posts', postController.createPost);
+app.put('/posts/:id', postController.updatePost);
+app.delete('/posts/:id', postController.deletePost);
 
 app.get('/about', pageController.getAboutPage);
 app.get('/add', pageController.getAddPage);
